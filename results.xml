@@ -1,0 +1,14 @@
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="14.459310000000002">
+<testsuite name="demotest.spec.js" timestamp="2025-12-22T18:33:34.556Z" hostname="" tests="1" failures="0" skipped="0" time="9.786" errors="0">
+<testcase name="first POM test" classname="demotest.spec.js" time="9.786">
+<system-out>
+<![CDATA[Home
+Practice
+Courses
+Blog
+Contact
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>

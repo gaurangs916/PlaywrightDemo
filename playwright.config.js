@@ -27,7 +27,7 @@ const config = defineConfig ({  // defineConfig is configuration object
      // screenshot : 'on',
      // trace : 'retain-on-failure',  // this will only give if particular test fails. off, on , retain-on-failure.
 
-  },
+  }
 
 
 });

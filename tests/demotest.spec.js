@@ -1,12 +1,12 @@
+
 const {test, expect} = require('@playwright/test');
 
 import { loginpage } from "../Pages/loginpage";
-
+import { homepage } from "../Pages/homepage";
 
 // this import fs is done as we are getting data from csv file, so we need to write line 5-10
 import fs from "fs";
 import { parse } from "csv-parse/sync";
-import { homepage } from "../Pages/homepage";
 
 const records = parse(fs.readFileSync("tests/datasheet/testdata.csv"),
   {

@@ -1,7 +1,7 @@
 {
   "config": {
-    "configFile": "C:\\Users\\Gaurang Salaskar\\Desktop\\PlayWrightAutomation\\playwright.config.js",
-    "rootDir": "C:/Users/Gaurang Salaskar/Desktop/PlayWrightAutomation/tests",
+    "configFile": "C:\\Users\\Gaurang Salaskar\\Desktop\\Personal\\PlayWrightAutomation\\playwright.config.js",
+    "rootDir": "C:/Users/Gaurang Salaskar/Desktop/Personal/PlayWrightAutomation/tests",
     "forbidOnly": false,
     "fullyParallel": false,
     "globalSetup": null,
@@ -10,9 +10,7 @@
     "grep": {},
     "grepInvert": null,
     "maxFailures": 0,
-    "metadata": {
-      "actualWorkers": 1
-    },
+    "metadata": {},
     "preserveOutput": "always",
     "reporter": [
       [
@@ -36,7 +34,7 @@
         }
       ],
       [
-        "C:\\Users\\Gaurang Salaskar\\Desktop\\PlayWrightAutomation\\node_modules\\allure-playwright\\dist\\cjs\\index.js",
+        "C:\\Users\\Gaurang Salaskar\\Desktop\\Personal\\PlayWrightAutomation\\node_modules\\allure-playwright\\dist\\cjs\\index.js",
         {
           "outputFolder": "my-allure-results"
         }
@@ -49,15 +47,13 @@
     "quiet": false,
     "projects": [
       {
-        "outputDir": "C:/Users/Gaurang Salaskar/Desktop/PlayWrightAutomation/test-results",
+        "outputDir": "C:/Users/Gaurang Salaskar/Desktop/Personal/PlayWrightAutomation/test-results",
         "repeatEach": 1,
         "retries": 0,
-        "metadata": {
-          "actualWorkers": 1
-        },
+        "metadata": {},
         "id": "",
         "name": "",
-        "testDir": "C:/Users/Gaurang Salaskar/Desktop/PlayWrightAutomation/tests",
+        "testDir": "C:/Users/Gaurang Salaskar/Desktop/Personal/PlayWrightAutomation/tests",
         "testIgnore": [],
         "testMatch": [
           "**/*.@(spec|test).?(c|m)[jt]s?(x)"
@@ -73,71 +69,17 @@
     "workers": 6,
     "webServer": null
   },
-  "suites": [
+  "suites": [],
+  "errors": [
     {
-      "title": "demotest.spec.js",
-      "file": "demotest.spec.js",
-      "column": 0,
-      "line": 0,
-      "specs": [
-        {
-          "title": "first POM test",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 9786,
-                  "errors": [],
-                  "stdout": [
-                    {
-                      "text": "Home\n"
-                    },
-                    {
-                      "text": "Practice\n"
-                    },
-                    {
-                      "text": "Courses\n"
-                    },
-                    {
-                      "text": "Blog\n"
-                    },
-                    {
-                      "text": "Contact\n"
-                    }
-                  ],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2025-12-22T18:33:36.920Z",
-                  "annotations": [],
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "d77e8162be47a79c3bbc-639f5f346dfd1e8d9c79",
-          "file": "demotest.spec.js",
-          "line": 19,
-          "column": 3
-        }
-      ]
+      "message": "Error: No tests found.\nMake sure that arguments are regular expressions matching test files.\nYou may need to escape symbols like \"$\" or \"*\" and quote the arguments.",
+      "stack": "Error: No tests found.\nMake sure that arguments are regular expressions matching test files.\nYou may need to escape symbols like \"$\" or \"*\" and quote the arguments."
     }
   ],
-  "errors": [],
   "stats": {
-    "startTime": "2025-12-22T18:33:34.232Z",
-    "duration": 14459.310000000001,
-    "expected": 1,
+    "startTime": "2026-01-17T09:45:38.912Z",
+    "duration": 251.71399999999994,
+    "expected": 0,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0

@@ -1,9 +1,10 @@
+
 const {test, expect} =require('@playwright/test')
 exports.homepage = 
 class homepage{
  constructor(page){
   this.page=page;
-  this.headers="//ul[@id='menu-primary-items']//li";
+  this.headers=page.locator("//ul[@id='menu-primary-items']//li");
   this.heading=page.locator("//h1[@class='post-title']");
 
  }
